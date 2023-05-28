@@ -1,0 +1,45 @@
+.sideBar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+
+.sideBar > a:first-child {
+  padding: 0;
+}
+.sideBar > a > img {
+  width: 90%;
+  transition: all 0.5s;
+}
+
+.sideBar > a > img:hover {
+  filter: drop-shadow(0 0 10px tomato);
+}
+
+.sideBar a,
+.sd {
+  text-decoration: none;
+  transition: all 0.5s;
+  color: rgb(0, 0, 0.493);
+  padding: 1rem;
+  font: 200 1rem "Roboto";
+}
+
+.sideBar a:hover {
+  color: tomato;
+  transform: scale(1.1);
+}
+
+.sideBar a > p {
+  display: flex;
+  align-items: center;
+}
+
+.sideBar > a > p > svg {
+  margin-right: 0.5rem;
+}
+
+.MuiTreeItem-root .css-16alkdk-MuiTreeItem-root .css-161j9ok-MuiTreeView-root {
+  background-color: #fff !important;
+}
